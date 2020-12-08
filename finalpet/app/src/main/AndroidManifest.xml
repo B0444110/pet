@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.newpet">
+
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo1"
+        android:label="有你PET伴"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".maps.Maps11Activity"></activity>
+        <activity android:name=".maps.Maps10Activity" />
+        <activity android:name=".maps.Maps9Activity" />
+        <activity android:name=".maps.Maps8Activity" />
+        <activity android:name=".maps.Maps7Activity" />
+        <activity android:name=".maps.Maps6Activity" />
+        <activity android:name=".maps.Map5Activity" />
+        <activity android:name=".maps.Maps4Activity" />
+        <activity android:name=".maps.Maps3Activity" />
+        <activity android:name=".maps.Maps2Activity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCmSor8x87m0h5BrSjOzMx1GUX5UaYIOAA" />
+
+        <activity android:name=".maps.MapsActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".pet_addpet.addpetActivity"
+            android:label="我的寵物"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/ThemeAdd">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".newsActivity"
+            android:label="寵物相簿"
+            android:theme="@style/ThemeNews" />
+        <activity
+            android:name=".pet_note.findActivity"
+            android:label="寵物紀錄"
+            android:theme="@style/ThemeFind" />
+        <activity
+            android:name=".setActivity"
+            android:label="@string/title_activity_set"
+            android:theme="@style/ThemeSet" />
+        <activity
+            android:name=".ItemListActivity"
+            android:label="@string/title_item_list" />
+        <activity
+            android:name=".ItemDetailActivity"
+            android:label="@string/title_item_detail"
+            android:parentActivityName=".ItemListActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.user.newpet.ItemListActivity" />
+        </activity>
+        <activity
+            android:name=".pet_notic.selfActivity"
+            android:label="新手須知"
+            android:theme="@style/ThemeSelf" />
+        <activity
+            android:name=".adddayActivity"
+            android:label="@string/title_activity_addday" />
+        <activity
+            android:name=".addActivity"
+            android:label="@string/title_activity_add"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dayActivity"
+            android:label="行事曆"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".aboutActivity"
+            android:label="關於"
+            android:theme="@style/ThemeAbout" />
+        <activity
+            android:name=".pet_login_re.loginActivity"
+            android:label="Login" />
+        <activity
+            android:name=".pet_notic.testActivity"
+            android:label="自我評量"
+            android:theme="@style/ThemeSelf" />
+        <activity
+            android:name=".pet_notic.successActivity"
+            android:label="自我評量"
+            android:theme="@style/ThemeSelf" />
+        <activity
+            android:name=".pet_tool.food1Activity"
+            android:label="食品保健"
+            android:theme="@style/ThemeLogin" />
+        <activity
+            android:name=".pet_tool.lifeActivity"
+            android:label="生活用品"
+            android:theme="@style/ThemeLogin" />
+        <activity
+            android:name=".pet_tool.cleanActivity"
+            android:label="美容清潔"
+            android:theme="@style/ThemeLogin" />
+        <activity
+            android:name=".pet_adopt.adoptActivity"
+            android:label="領養資訊"
+            android:theme="@style/ThemeAdopt" />
+        <activity
+            android:name=".pet_adopt.animallistActivity"
+            android:label="領養資訊"
+            android:theme="@style/ThemeAdopt" />
+        <activity
+            android:name=".pet_adopt.houseActivity"
+            android:label="領養資訊"
+            android:theme="@style/ThemeAdopt" />
+        <activity
+            android:name=".pet_login_re.registerActivity"
+            android:label="REGISTER"
+            android:theme="@style/ThemeAbout" />
+        <activity
+            android:name=".pet_login_re.LogoutActivity"
+            android:label="登出"
+            android:theme="@style/ThemeLogout" />
+        <activity
+            android:name=".pet_notic.noticActivity"
+            android:label="注意事項"
+            android:theme="@style/ThemeSelf" />
+        <activity
+            android:name=".pet_image.ImagesActivity"
+            android:label="寵物相簿"
+            android:theme="@style/ThemeNews" />
+        <activity
+            android:name=".pet_note.NewNoteActivity"
+            android:label="寵物紀錄"
+            android:theme="@style/ThemeFind" />
+        <activity
+            android:name=".pet_addpet.ArtistActivity"
+            android:label="我的寵物"
+            android:theme="@style/ThemeAdd" />
+    </application>
+
+</manifest>

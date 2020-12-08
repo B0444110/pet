@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pet_notic.noticActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/pets"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"/>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_marginTop="10dp" />
+
+            <RelativeLayout
+                android:layout_width="395dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="1.是否能夠負擔生活支出"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/red"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textView2"
+                    android:layout_marginTop="5dp"
+                    android:text="養寵物前不得不面對的重要問題就是，能不能負擔得起飼養牠們的一切花費？除了正常性的支出，包含飼料、貓砂、玩具、看病等，還必須存有一筆額外的醫療花費或其他支出，以備不時之需！其實也是一筆不小的負擔，所以在養寵物前，還是必須慎重思考！"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relativeLayout2">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2.有能力陪伴與照顧寵物"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="寵物其實跟人類一樣，都是需要陪伴、相處及照顧的。現代人生活忙碌，回到家只想休息，不小心就會忽略在家痴痴等候的牠們，所以在準備有一個新成員前，也必須想想自己是否能夠給予牠足夠的陪伴吧！"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/textView4"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3.家人同不同意飼養寵物"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="養寵物雖是自己的責任，但如果是和家人或室友同住的話，勢必得考量到其他人的心情。不管是養貓或狗，難免會替生活帶來些麻煩，例如愛吠叫、大小便、家中有異味、破壞家具物品、掉毛、過敏等問題。若有人反對，也可事先溝通，避免造成日後不必要的生活衝突。"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/textView6"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4.能提供理想環境給寵物"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="領養寵物前，除考量生活基本所需外，也別忽略提供適合寵物的生活環境，像是家裡活動空間夠不夠等問題。養貓咪必須給牠貓抓板抒發情緒，以免抓壞家具，或養狗必須在門上開個狗洞，讓他快活地跑來跑去，必須去試著創造一個寵物及飼主都能舒適生活的環境。"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/textView8"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5.能夠應付額外醫療支出"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="養寵物前一定得先考量自身經濟狀況，除了一般的日常支出，像是飼料、貓砂、玩具等，還有健康檢查，如除蚤、打預防針等，此外還是可能會有不定期的額外支出，寵物年老後，身體機能退化相當常見，因此也必須做好能應付額外醫療費用的準備！"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/textView10"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6.領養前已累積相關知識"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="在領養寵物前，除了要做好萬全心理準備外，同時也該充實自己的寵物相關知識，可以買些相關書籍來看，或是詢問家裡有養寵物的親朋好友，吸取寶貴的飼養經驗。不管是飼料或罐頭的挑選、如何正確餵食保健品、注意營養都是很重要的課題！"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/textView12"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7.定時除蚤、施打預防針"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="在領養寵物時，每年定期的健康檢查、施打預防針或疫苗，也必須多加小心留意！尤其如果是經常讓家裡毛寶貝在外蹦跳的飼主們，三不五時的幫牠們洗澡、除蚤，不只對牠們的身體健康有益處，同時也可維護自己的居住環境的整潔喔！"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/textView14"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8.是不是會對貓、狗過敏"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="現代人過敏問題嚴重，也有不少人容易對寵物過敏，如果你是易過敏體質，在領養寵物前恐怕就得再慎重思考一下了！雖然造成過敏的原因百百種，但如果飼養寵物後，在居家環境的維護上，的確需要花更多心思、多加留意把關。"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/textView16"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9.居住地方是否允許飼養"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="在領養前先確認清楚居住地是否可以養寵物是相當重要的！這一般多是學生、或是在外租屋的民眾要考量的問題。外宿者須考量房東是否同意飼養寵物，看當初契約上有無寫明不得飼養寵物，如果是住在公寓大樓，也須考量其他住戶的安寧。"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/textView18"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10.做好領養寵物心理建設"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="毛小孩不是玩具、是一條寶貴的生命，許多人常常忽略，領養寵物前必須做好足夠的心理準備。像是釐清自己是否因一時衝動？考量是否願意為寵物付出時間？是否意識到即將有個新成員出現在生活中、又會對生活帶來什麼改變？這些都是必須考量的要素之一。"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/textView20"/>
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="資料來源：ETtoday健康雲"
+                    android:textColor="@color/darkblue"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/textView21"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

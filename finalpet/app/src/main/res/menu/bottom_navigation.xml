@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_food"
+        android:title="食品保健" />
+
+    <item
+        android:id="@+id/nav_favorites"
+        android:icon="@drawable/ic_tool"
+        android:title="生活用品" />
+
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/ic_cut"
+        android:title="美容清潔" />
+
+
+</menu>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editText" type="id" />
+    <item name="android_coordinator_layout" type="id" />
+    <item name="collapsing_toolbar_android_layout" type="id" />
+</resources>

@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">有你PET伴</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_set">Settings</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="dispbbs_link"><a href="https://www.youtube.com/watch?v=ovC6bCnFyjQ">網頁版:有你PET伴</a></string>
+    <string name="adopt_link1">http://www.ahiqo.ntpc.gov.tw/cht/index.php</string>
+
+    <!-- Strings related to Settings -->
+    <array name="genres">
+        <item>狗</item>
+        <item>貓</item>
+    </array>
+
+    <array name="gender">
+        <item>公</item>
+        <item>母</item>
+    </array>
+
+    <array name="raw">
+        <item>未結紮</item>
+        <item>已結紮</item>
+    </array>
+    <string-array name="place">
+        <item> 台北市動物之家</item>
+        <item> 拼圖喵中途之家</item>
+        <item> 板橋動物之家</item>
+        <item> 浪浪別哭</item>
+        <item> 中和公立動物之家</item>
+        <item> 卓媽媽狗場</item>
+        <item>五股區公立動物之家</item>
+        <item>張媽媽流浪動物之家</item>
+        <item>淡水動物之家</item>
+        <item>讀貓園中途咖啡簡餐廳</item>
+        <item>新店動物之家</item>
+
+    </string-array>
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_add">我的寵物</string>
+
+    <string name="select_region_dialog_title">性別</string>
+    <string-array name="spn_list">
+        <item>公</item>
+        <item>母</item>
+    </string-array>
+
+
+    <string-array name="spn_list1">
+        <item>一月</item>
+        <item>半年</item>
+        <item>三歲</item>
+        <item>五歲</item>
+    </string-array>
+    <string name="title_activity_day">dayActivity</string>
+    <string name="title_activity_addday">adddayActivity</string>
+
+    <string name="tvPtEdu">性別</string>
+    <string name="btPtSure">確定</string>
+    <string-array name="spnEduList">
+        <item>公</item>
+        <item>母</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="text">養寵物前必知十大注意事項</string>
+
+
+</resources>

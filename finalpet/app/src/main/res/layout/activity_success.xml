@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pet_notic.successActivity">
+
+
+    <ImageView
+        android:layout_width="373dp"
+        android:layout_height="506dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-111dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="0dp"
+        android:adjustViewBounds="true"
+        android:padding="8dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/su_dog" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginRight="50dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:textColor="@color/facebookBlue"
+            android:background="@color/white"
+            android:text="恭喜你成功通過測驗"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="140dp"
+            android:background="@color/facebookBlue"
+            android:fontFamily="sans-serif-medium"
+            android:text="回首頁"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:onClick="home"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
